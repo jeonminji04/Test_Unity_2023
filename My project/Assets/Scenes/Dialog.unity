@@ -507,11 +507,140 @@ MonoBehaviour:
     characterPath: None
     tweenType: 0
     nextindex: -100
-  DialogInit: 1
-  dialogsDB: 0
-  currentDialogIndex: -1
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  - index: 4
+    speakerUIindex: 0
+    name: "\uC774\uB9841"
+    dialogue: "\uB2E4\uC774\uC5BC\uB85C\uADF8 \uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8
+      1"
+    characterPath: None
+    tweenType: 0
+    nextindex: -100
+  DialogInit: 0
+  dialogsDB: 1
+  currentDialogIndex: 0
   currentSpeakerIndex: 0
   typingSpeed: 0.1
+  entity_dialogue: {fileID: 11400000, guid: 892417bf0c00294479171e5749608fb8, type: 2}
 --- !u!4 &1486604176
 Transform:
   m_ObjectHideFlags: 0
