@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FovSystem : MonoBehaviour
+public class FOVSystem : MonoBehaviour
 {
-    public float viewRadius;
-    public float viewAngle;
+    public float viewRadius;            //시야 거리
+    public float viewAngle;             //시야 각
 
-    public LayerMask targetMast;
-    public LayerMask ObstacleMask;
+    public LayerMask targetMask;        //Target 레이어에서 가져옴
+    public LayerMask obstacleMask;      //oibstacleMask 레이어에서 가져옴
 
-    public List<Transform> visibleTargets = new List<Transform>();
+    public List<Transform> visibleTargets = new List<Transform>();                  //보이는 타겟 리스트
 
     // Start is called before the first frame update
     public virtual void Start()
@@ -29,45 +29,46 @@ public class FovSystem : MonoBehaviour
 
     void FindVisibleTargets()
     {
-        visibleTargetColor(Color.white);
+        visibleTartgetColor(Color.white);
         visibleTargets.Clear();
 
-        Collider[] targetslnViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMast);
+        Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
 
-        for (int i = 0; i < targetslnViewRadius.Length; i ++)
+        for (int i = 0; i < targetsInViewRadius.Length; i++)
         {
-            Transform target = targetslnViewRadius[i].transform;
+            Transform target = targetsInViewRadius[i].transform;
             Vector3 dirToTarget = (target.position - transform.position).normalized;
 
-            if(Vector3.Angle(transform.forward, dirToTarget) < viewAngle/2)
+            if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
             {
                 float dstToTarget = Vector3.Distance(transform.position, target.position);
 
-                if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, ObstacleMask))
+                if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
                     visibleTargets.Add(target);
                 }
             }
         }
 
-        visibleTargetColor(Color.green);
+        visibleTartgetColor(Color.green);
     }
 
-    public Vector3 DirFromAngle(float anglelnDegress, bool anglesGlobal)
+    public Vector3 DirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
-        if(!anglesGlobal)
+        if (!angleIsGlobal)
         {
-            anglelnDegress += transform.eulerAngles.y;
+            angleInDegrees += transform.eulerAngles.y;
         }
 
-        return new Vector3(Mathf.Sin(anglelnDegress * Mathf. Deg2Rad), 0, Mathf.Cos(anglelnDegress * Mathf.Deg2Rad));
+        return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
 
-    void visibleTargetColor(Color color)
+    void visibleTartgetColor(Color color)
     {
-        for(int i = 0; i <visibleTargets.Count; i ++)
+        for (int i = 0; i < visibleTargets.Count; i++)
         {
             visibleTargets[i].GetComponent<Renderer>().material.SetColor("_Color", color);
         }
+
     }
 }
