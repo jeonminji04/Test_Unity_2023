@@ -1,0 +1,3 @@
+textless, (high_resolution:1.4), masterpiece, best quality, A young Woman, cyberpunk ChristianBale CYBER NINJA, Black hair, Green eyes
+Negative prompt: worst quality, low quality, (Low_resolutioin:1.4),(Low_picture_quality:1.5), missing_arms, missing_hands, missing_fingers, missing_legs, nsfw
+Steps: 20, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 2438646143, Size: 512x512, Model hash: 5493a0ec49, Model: abyssorangemix3AOM3_aom3a1b
